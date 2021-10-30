@@ -1,0 +1,8 @@
+**/*.iml
+**/.*
+gradlew
+gradlew.bat
+!/.gitignore
+/build
+/local.properties
+/app/release/
