@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Sport tracker</string>
+    <string name="profileButton">Профиль</string>
+    <string name="title_progress">Прогресс</string>
+    <string name="title_training">Тренировка</string>
+    <string name="title_profile">Профиль</string>
 </resources>
