@@ -34,8 +34,17 @@ class TrainingFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        initTrainingInfo()
+
         map.onCreate(savedInstanceState)
         map.getMapAsync { }
+    }
+
+    private fun initTrainingInfo() {
+        speed.text = getString(R.string.speed, "0.00")
+        time.text = getString(R.string.time, "00:00")
+        distance.text = getString(R.string.distance, "0.00")
+        calories.text = getString(R.string.calories, "0")
     }
 
     override fun onStart() {

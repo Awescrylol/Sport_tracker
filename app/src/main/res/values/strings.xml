@@ -1,7 +1,13 @@
 <resources>
     <string name="app_name">Sport tracker</string>
-    <string name="profileButton">Профиль</string>
     <string name="title_progress">Прогресс</string>
+
     <string name="title_training">Тренировка</string>
+    <string name="start">Начать тренировку</string>
+    <string name="speed">Средний темп:\n %1$s мин/км</string>
+    <string name="time">Время:\n %1$s</string>
+    <string name="distance">Дистанция:\n %1$s км</string>
+    <string name="calories">Калории:\n %1$s ккал</string>
+
     <string name="title_profile">Профиль</string>
 </resources>
