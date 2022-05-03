@@ -1,5 +1,8 @@
 package com.example.sporttracker.di
 
+import com.example.sporttracker.di.module.ContextModule
+import com.example.sporttracker.di.module.DataModule
+import com.example.sporttracker.di.module.PresentationModule
 import com.example.sporttracker.ui.ProfileFragment
 import com.example.sporttracker.ui.ProgressFragment
 import com.example.sporttracker.ui.TrainingFragment
@@ -7,6 +10,8 @@ import dagger.Component
 
 @Component(
     modules = [
+        ContextModule::class,
+        DataModule::class,
         PresentationModule::class,
     ]
 )

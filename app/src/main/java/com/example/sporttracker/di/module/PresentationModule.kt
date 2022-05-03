@@ -1,7 +1,9 @@
-package com.example.sporttracker.di
+package com.example.sporttracker.di.module
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
+import com.example.sporttracker.di.ViewModelFactory
+import com.example.sporttracker.di.ViewModelKey
 import com.example.sporttracker.presentation.ProfileViewModel
 import com.example.sporttracker.presentation.ProgressViewModel
 import com.example.sporttracker.presentation.TrainingViewModel
