@@ -1,4 +1,4 @@
-package com.example.sporttracker.ui.profile
+package com.example.sporttracker.presentation
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

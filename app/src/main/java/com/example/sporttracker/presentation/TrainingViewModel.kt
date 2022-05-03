@@ -1,4 +1,4 @@
-package com.example.sporttracker.ui.training
+package com.example.sporttracker.presentation
 
 import androidx.lifecycle.ViewModel
 

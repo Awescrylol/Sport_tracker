@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/navigation_progress"
-        android:name="com.example.sporttracker.ui.progress.ProgressFragment"
+        android:name="com.example.sporttracker.ui.ProgressFragment"
         android:label="@string/title_progress"
         tools:layout="@layout/progress_fragment" />
 
     <fragment
         android:id="@+id/navigation_training"
-        android:name="com.example.sporttracker.ui.training.TrainingFragment"
+        android:name="com.example.sporttracker.ui.TrainingFragment"
         android:label="@string/title_training"
         tools:layout="@layout/training_fragment" />
 
     <fragment
         android:id="@+id/navigation_profile"
-        android:name="com.example.sporttracker.ui.profile.ProfileFragment"
+        android:name="com.example.sporttracker.ui.ProfileFragment"
         android:label="@string/title_profile"
         tools:layout="@layout/profile_fragment" />
 </navigation>

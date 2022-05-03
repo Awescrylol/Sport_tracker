@@ -1,4 +1,4 @@
-package com.example.sporttracker.ui.progress
+package com.example.sporttracker.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.sporttracker.R
+import com.example.sporttracker.presentation.ProgressViewModel
 import kotlinx.android.synthetic.main.progress_fragment.*
 
 class ProgressFragment : Fragment() {
