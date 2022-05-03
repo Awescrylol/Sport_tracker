@@ -8,6 +8,8 @@
     <string name="time">Время:\n %1$s</string>
     <string name="distance">Дистанция:\n %1$s км</string>
     <string name="calories">Калории:\n %1$s ккал</string>
-
+    <string name="location_explain_dialog_message">Включите службы геолокации, чтобы разрешить программе "Sport Tracker" определять вашу геолокацию</string>
+    <string name="location_explain_dialog_title">Доступ к геолокации</string>
     <string name="title_profile">Профиль</string>
+    <string name="confirm">OK</string>
 </resources>
