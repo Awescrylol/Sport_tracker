@@ -26,6 +26,43 @@ class TrainingFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        trainingViewModel.text.observe(viewLifecycleOwner) { text_training.text = it }
+        map.onCreate(savedInstanceState)
+        map.getMapAsync { }
+    }
+
+    override fun onStart() {
+        super.onStart()
+
+        map.onStart()
+    }
+
+    override fun onResume() {
+        super.onResume()
+
+        map.onResume()
+    }
+
+    override fun onStop() {
+        super.onStop()
+
+        map.onStop()
+    }
+
+    override fun onSaveInstanceState(outState: Bundle) {
+        super.onSaveInstanceState(outState)
+
+        map.onSaveInstanceState(outState)
+    }
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+
+        map.onDestroy()
+    }
+
+    override fun onLowMemory() {
+        super.onLowMemory()
+
+        map.onLowMemory()
     }
 }
