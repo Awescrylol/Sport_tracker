@@ -7,7 +7,7 @@ plugins {
 }
 
 android {
-    compileSdk 30
+    compileSdk 31
 
     defaultConfig {
         applicationId "com.example.sporttracker"
@@ -37,7 +37,7 @@ android {
     }
 }
 
-def dagger_version = "2.29"
+def dagger_version = "2.40.5"
 
 dependencies {
 
