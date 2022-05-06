@@ -1,5 +1,6 @@
 package com.example.sporttracker.di
 
+import com.example.sporttracker.TrainingForegroundService
 import com.example.sporttracker.di.module.ContextModule
 import com.example.sporttracker.di.module.DataModule
 import com.example.sporttracker.di.module.PresentationModule
@@ -16,6 +17,8 @@ import dagger.Component
     ]
 )
 interface AppComponent {
+
+    fun injectTrainingForegroundService(trainingForegroundService: TrainingForegroundService)
 
     fun injectProfileFragment(profileFragment: ProfileFragment)
 

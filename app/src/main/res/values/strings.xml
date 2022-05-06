@@ -12,4 +12,6 @@
     <string name="location_explain_dialog_title">Доступ к геолокации</string>
     <string name="title_profile">Профиль</string>
     <string name="confirm">OK</string>
+    <string name="training_notification_active_content_text">В процессе тренировки...</string>
+    <string name="training_notification_channel_description">Канал для работы службы определения локации в фоновом режиме</string>
 </resources>
