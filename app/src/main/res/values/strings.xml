@@ -4,6 +4,7 @@
 
     <string name="title_training">Тренировка</string>
     <string name="start">Начать тренировку</string>
+    <string name="stop">Завершить тренировку</string>
     <string name="speed">Средний темп:\n %1$s мин/км</string>
     <string name="time">Время:\n %1$s</string>
     <string name="distance">Дистанция:\n %1$s км</string>
